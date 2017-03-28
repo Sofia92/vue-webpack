@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue tutorial</title>
+</head>
+<body>
+    <div id="app">{{message|capitalize}}
+        <div v-if="seen">可视区域 </div>
+        <input type="text" :value="message">
+    </div>
+    <script src="./dist/bundle.js"></script>
+</body>
+</html>
